@@ -47,20 +47,22 @@
         <div class="text-xl font-bold text-white">QR Code Generator</div>
       </div>
     </header>
-    <main>
+    <main class="h-full">
       <div
         class="flex flex-col-reverse align-center justify-center m-auto md:max-w-4xl md:flex-row p-10"
       >
         <div class="w-full md:w-2/3 mr-24">
           <h1 class="text-3xl font-bold mb-4 md:text-4xl">QR Code Generator</h1>
+
           <p>
-            This is a simple QR code generator that allows users to access your
-            website via a QR code.
+            Enter your website URL below and choose the size than QR code will
+            be generated for you.
           </p>
+          <!-- <h2>How to use</h2>
           <p>
-            Enter your website URL below and a QR code will be generated for
-            you.
-          </p>
+            Enter your website URL below and pick up the size for you and
+            download your QR code.It's that simple
+          </p> -->
           <form id="generate-form" class="mt-4">
             <input
               id="url"
@@ -127,6 +129,17 @@
         <!-- QR Code Output -->
         <div id="qrcode" class="m-auto"></div>
       </div>
+      <footer class="text-center">
+        <p class="text-xs text-slate-400">
+          Created by
+          <a href="https://github.com/muratcansahn"> Murat Can Şahin</a>
+        </p>
+        <span class="text-xs text-slate-400">
+          <a href="https://buymeacoffee.com/muratcansahin">
+            Buy me a coffee !
+          </a>
+        </span>
+      </footer>
     </main>
   </body>
 </html>
